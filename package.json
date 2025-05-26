@@ -1,17 +1,16 @@
 {
     "name": "baeboo-bot",
     "version": "1.0.0",
-    "description": "Automated BaeBoo account tasks",
+    "description": "Automated bot for BaeBoo platform",
     "main": "bot.js",
     "scripts": {
         "start": "node bot.js"
     },
     "dependencies": {
-        "node-fetch": "^2.6.7",
         "axios": "^1.7.2",
-        "querystring": "^0.2.1",
+        "colors": "^1.4.0",
         "random-name": "^0.1.2"
     },
     "author": "https://t.me/sentineldiscus",
-    "license": "ISC"
+    "license": "MIT"
 }
